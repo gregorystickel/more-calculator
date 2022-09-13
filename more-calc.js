@@ -36,6 +36,11 @@ reader.question("What would you like to calculate?", function (input) {
     console.log(Math.sqrt(num1));
     console.log(Math.sqrt(num2));
   }
+  //Square numbers
+  if (mathSymbol === "²"){
+    console.log(Math.pow(num1, 2));
+    console.log(Math.pow(num2, 2));
+  }
   //Cube numbers
   if (mathSymbol === "³"){
     console.log("Is Running");
