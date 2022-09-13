@@ -43,9 +43,12 @@ reader.question("What would you like to calculate?", function (input) {
   }
   //Cube numbers
   if (mathSymbol === "³"){
-    console.log("Is Running");
     console.log(Math.pow(num1, 3));
     console.log(Math.pow(num2, 3));
+  }
+  // Remainder of two numbers
+  if (mathSymbol === "%"){
+    console.log(num1 % num2);
   }
 
   // This line closes the connection to the command line interface.
